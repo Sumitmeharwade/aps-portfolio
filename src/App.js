@@ -7,7 +7,7 @@ import About from "./About";
 import "./styles.css";
 import Footer from "./Footer";
 import ContactUs from "./ContactUs";
-
+import "aos/dist/aos.css";
 
 const App = () => {
   useEffect(() => {

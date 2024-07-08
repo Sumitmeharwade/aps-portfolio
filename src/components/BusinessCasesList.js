@@ -13,7 +13,7 @@ const businessCases = [
       timeComplexity: 'O(L) for insertion, deletion, and lookup operations, where L is the length of the key.',
       spaceComplexity: 'O(ALPHABET_SIZE * L) where ALPHABET_SIZE is the number of possible characters and L is the length of the key.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/blob/main/Trie.cpp'
   },
   {
     title: 'Optimizing Delivery ',
@@ -27,7 +27,7 @@ const businessCases = [
       timeComplexity: 'O(N^3)',
       spaceComplexity: 'O(N^2)'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/blob/main/Assignment_Problem(Hungarian_Algorithm).cpp'
   },
   {
     title: 'Reducing waste in production process',
@@ -41,7 +41,7 @@ const businessCases = [
       timeComplexity: 'O(N^2)',
       spaceComplexity: 'O(N)'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/blob/main/Rod_cutting.cpp'
   },
   {
     title: 'Product Sorting',
@@ -55,7 +55,7 @@ const businessCases = [
       timeComplexity: 'O(nlogn) for merge sort and quick sort in the average case, O(n^2) for quick sort in the worst case.',
       spaceComplexity: 'O(n) for merge sort and O(logn) for quick sort.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/tree/main/sort'
   },
   {
     title: 'Products data Obtimization',
@@ -69,7 +69,7 @@ const businessCases = [
       timeComplexity: 'O(log n) for insert, delete, and search operations.',
       spaceComplexity: 'O(n) for storing the tree.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/blob/main/AVL.cpp'
   },
   {
     title: 'Customer Priority Queue',
@@ -83,7 +83,7 @@ const businessCases = [
       timeComplexity: 'O(log n) for insert and delete operations.',
       spaceComplexity: 'O(n) for storing the heap.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/blob/main/Heap_Sort.cpp'
   },
   {
     title: 'Customer Order Management',
@@ -97,7 +97,7 @@ const businessCases = [
       timeComplexity: 'O(1) for insertion and deletion at the head, O(n) for searching and accessing elements.',
       spaceComplexity: 'O(n) for storing n elements.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/blob/main/Singly_Linked_List.cpp'
   },
 
   {
@@ -112,7 +112,7 @@ const businessCases = [
       timeComplexity: 'O(log n) for nearest neighbor search.',
       spaceComplexity: 'O(n) for storing the tree.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/cdalitz/kdtree-cpp/blob/master/kdtree.cpp'
   },
   {
     title: 'Autocomplete',
@@ -126,7 +126,7 @@ const businessCases = [
       timeComplexity: 'O(L) for insertion and search, where L is the length of the key.',
       spaceComplexity: 'O(ALPHABET_SIZE * L) for storing the tree.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/ssbl/radix-tree'
   },
   {
     title: 'Efficient Shipping and Delivery',
@@ -140,7 +140,7 @@ const businessCases = [
       timeComplexity: 'O(E + V log V) where E is the number of edges and V is the number of vertices in the graph.',
       spaceComplexity: 'O(V) for storing route data and the priority queue.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/daancode/a-star'
   },
 
   {
@@ -155,7 +155,7 @@ const businessCases = [
       timeComplexity: 'O(U * P) where U is the number of users and P is the number of products.',
       spaceComplexity: 'O(U * P) for storing user-product interactions.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/bowbowbow/CollaborativeFiltering'
   },
   {
     title: 'Product Image and Video Compression',
@@ -169,7 +169,7 @@ const businessCases = [
       timeComplexity: 'O(nlogn) for building the Huffman tree, where n is the number of symbols.',
       spaceComplexity: 'O(n) for storing the Huffman tree and encoded data.'
     },
-    codeLink: '#'
+    codeLink: 'https://github.com/Sumitmeharwade/aps-codes/blob/main/Huffman_Coding.cpp'
   }
   
 ];
