@@ -1,6 +1,7 @@
 import React from 'react';
 import growth_img from '../images/ecommerce-growth.jpeg';
-
+import use_case from '../images/use_case.jpg';
+import highlevel from '../images/highlevel.webp';
 const MarketAnalysis = () => (
   <section id="MarketAnalysis" data-aos="fade-up-right">
     <h2>Market Analysis</h2>
@@ -14,9 +15,25 @@ const MarketAnalysis = () => (
     <br></br>
     <p>Here is the gragh showing E-commerce growth rate in the US.[5] </p>
     <img src={growth_img} alt="E-commerce growth rate in the US" width="100%" height="auto"></img>
-
+    <p>Source : &nbsp;  <a href='https://www.marketplacepulse.com/stats/us-e-commerce-growth-rate'>https://www.marketplacepulse.com/stats/us-e-commerce-growth-rate</a></p>
     {/* <a href="#top">Back to Top</a> */} 
+      <br></br>
+    <h2>Use Case Diagram of E-commerce app</h2>
+    <div className='center'>
+    <img src={use_case} alt='use case diagram of e-commerce app' width="50%" height="auto"></img>
+    </div>
+      <br></br>
+    <h2>High level architecture of E-commerce app</h2>
+    <div className='center'>
+    <img src={highlevel} alt='high level architecture of e-commerce app' width="80%" height="auto"></img>
+    
+    </div>
+    <p>Source : &nbsp; <a href='https://mlsdev.medium.com/how-to-build-an-ecommerce-website-from-scratch-start-selling-products-worldwide-a55256673878'>https://mlsdev.medium.com/how-to-build-an-ecommerce-website-from-scratch-start-selling-products-worldwide-a55256673878</a></p>
+    
+
   </section>
+  
+  
 );
 
 export default MarketAnalysis;
